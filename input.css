@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Customs color */
+@theme {
+    /* Globals color */
+    --color-primary: #017D6E;
+
+    /* bg colors */
+    --color-bg_primary: #FFFFFF;
+    --color-secondary_bg: #F9FAFA;
+
+    /* Text Colors */
+    --color-text_black: #101918;
+    --color-text_normal: #5F6564;
+}
+
+/* custom style globals */
+@layer{
+    .custom_container{
+        @apply py-12 px-3 md:py-20 md:px-10 lg:px-20 mx-auto;
+    }
+    /* other styles or component */
+}
